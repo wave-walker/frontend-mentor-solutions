@@ -29,3 +29,13 @@ a{
 		opacity: 1;
 	}
 }
+
+.hide-at-mobile-scr{
+	display: inline-block;
+}
+@media (max-width:1000px) {
+	.hide-at-mobile-scr{
+		display: none;
+	}
+	
+}
