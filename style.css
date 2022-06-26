@@ -14,3 +14,18 @@ a{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
 }
+.blink-in{
+	animation: blink 1.5s infinite ease-in-out;
+}
+
+@keyframes blink {
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
